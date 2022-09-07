@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "segoe ui";
+    background: #5265e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin-top: 50px;
+    width: 350px;
+    height: 400px;
+    padding: 40px;
+    background: #141414;
+    border-radius: 10px;
+}
+.inpute5{
+    position: relative;
+}
+h1{
+    margin-bottom: 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.inpute5 input{
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+.inpute5 label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.5s;
+    pointer-events: none;
+}
+.inpute5 input:hover ~ label ,
+.inpute5 input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 14px;
+}
+.login{
+    position: relative;
+    display: inline-block;
+    padding: 10px 105px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 30px;
+    letter-spacing: 4px;
+}
+.login:hover{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+    
+}
+.login span{
+    position: absolute;
+    display: inline-block;
+}

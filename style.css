@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#menu-bar{
+    display: flex;
+    width: 100%;
+    height: auto;
+  
+    
+}
+#left-div{
+    width: 50%;
+    
+    display: flex;
+}
+#right-div{
+    width: 50%;
+    display: flex;
+    direction: rtl;
+    
+}
+.little-div{
+    display: flex;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+#img-logo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 220px;
+    width: 200px;
+    height: 60px;
+}
+.img-img{
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+
+}
+#hide{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.836);
+    visibility: hidden;
+  z-index: 20000;
+  direction: rtl;
+  display: flex;
+  
+    
+}
+h1{
+    font-size: 15px;
+}
+#hiden{
+   position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.836);
+   visibility: hidden;
+   z-index: 20000;
+   
+ 
+}
+#sabade_kharid{
+    width: 25%;
+    height: 50px;
+    size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vurud{
+    display: flex;
+    width: 25%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#pro{
+    position: relative;
+    width: 100%;
+    height: 1200px;
+    background-image: url("/pic/amin.psb.png");
+    background-position: center;
+    background-repeat:space;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    
+}
+#but{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.836);
+    margin: 10px;
+}
+#in{
+position: absolute;
+
+    width: 200px;
+    height: 22px;
+    background-color: rgba(255, 255, 255, 0.836);
+    margin: 50px;
+}
+.karekter{
+    width: 16.6%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: solid 1px gray ;
+  
+
+}
+#p{
+    size: 15px;
+    font-weight: bold;
+
+}
+.p1{
+    size: 10px;
+    padding-top: 25px;
+}
+.cont{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    padding-top: 40px;
+    direction: rtl;
+    padding-bottom: 10px;
+}
+.con{
+    width: 33.3%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    direction: ltr;
+    
+}
+#mardane:hover{
+    cursor: pointer;
+}
+#zanane:hover{
+    cursor: pointer;
+}
+#slide{
+   
+    width: 100%;
+    height: 1200px;
+  
+    visibility: hidden;
+    background-color: rgba(128, 128, 128, 0.747);
+    background-image: url("/pic/Screenshot\ \(63\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h1{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.p3{
+    font-size: 15px;
+    padding-top: 3px;
+
+}
+.con-name{
+    width: 25%;
+    height: 100px;
+
+}
+.con-img{
+    width: 8.3%;
+    height: 30px;
+
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.dastebandi{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding: 0 400px;
+    direction: rtl;
+}
+.titr{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(70, 69, 69);
+}
+.ax{
+    width: 25%;
+    height: 350px;
+    padding-left: 10px ;
+    position: relative;
+    
+
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+}
+.size{
+    width: 100%;
+    height: 20px;
+    background-color: gray;
+    position: absolute;
+}
+.show{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+}
+.this{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
